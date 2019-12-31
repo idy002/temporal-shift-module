@@ -59,6 +59,8 @@ cp cmake/config.cmake build/
 cd build
 #[
 #edit config.cmake to change
+# If you are running demo on Jetson devices such as Jetso Nano with NVIDIA GPU, turn on CUDA support. 
+# If you are running demo on Rasperry Pi or devices without NVIDIA GPU, turn off CUDA support (e.g. keep the default config).
 # 32 line: USE_CUDA OFF -> USE_CUDA ON
 #104 line: USE_LLVM OFF -> USE_LLVM ON
 #]
